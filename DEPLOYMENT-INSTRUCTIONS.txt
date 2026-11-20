@@ -1,0 +1,9 @@
+ZARVEE DEPLOYMENT INSTRUCTIONS
+
+1. Create GitHub repository and upload files.
+2. In Azure Portal create Static Web App (Free Plan).
+3. Connect GitHub repository and main branch.
+4. Build settings: App location=/ Output location=/ .
+5. Deploy.
+6. Replace Formspree endpoint in index.html with your own Formspree form ID.
+7. Add custom domain zarveedatasolutions.com and follow Azure DNS validation steps.
